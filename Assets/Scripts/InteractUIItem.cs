@@ -8,14 +8,20 @@ public class InteractUIItem : MonoBehaviour
 {
     public Button btnInteract;
     public Image imgInteract;
+    public RectTransform rtInteract;
 
-    public void Init(UnityAction action)
+    public void Init(DialogueExcelItem diaData,UnityAction action)
     {
-        //Load Image
+        imgInteract.sprite = Resources.Load(diaData.strText, typeof(Sprite)) as Sprite;
+        imgInteract.SetNativeSize();
 
-        //Set Position
+        rtInteract.anchoredPosition = new Vector2(diaData.posX, diaData.posY);
 
-
+        btnInteract.onClick.RemoveAllListeners();
+        btnInteract.onClick.AddListener(delegate ()
+        {
+            action.Invoke();
+        });
     }
 
 }

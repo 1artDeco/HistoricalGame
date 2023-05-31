@@ -62,6 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btnInteract: {fileID: 8272736925585549125}
   imgInteract: {fileID: 8272736925585549122}
+  rtInteract: {fileID: 8272736925585549124}
 --- !u!114 &8272736925585549122
 MonoBehaviour:
   m_ObjectHideFlags: 0

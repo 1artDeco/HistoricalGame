@@ -4,13 +4,23 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+public enum ActionType
+{
+    SetBG,
+    ShowText,
+    ShowImage,
+    HideText,
+    ClearAllImage
+}
+
 public partial class Dialogue : MonoBehaviour
 {
-    [Header("Dialogue")]
-    public GameObject objDia;
+    [Header("Background")]
+    public Image imgBG;
+
+    [Header("SpeechBox")]
+    public GameObject objSpeechBox;
     public TextMeshProUGUI textDisplay;
-    public string[] sentences;
-    private int index;
     public float typingSpeed;
     public Button btnContinue;
 
@@ -18,79 +28,80 @@ public partial class Dialogue : MonoBehaviour
     public Transform tfImage;
     public GameObject pfImage;
 
-    public int diaGroupIndex = 0;
-
+    [Header("Setting")]
+    public string initialGroupName = "Opening";
+    //Data
+    private List<DialogueExcelItem> listCurDialogue;
     private int curID = 0;
-    private List<DialogueStruct> listCur = new List<DialogueStruct>();
-    private List<DialogueStruct> listDia_0 = new List<DialogueStruct>();
-    private List<DialogueStruct> listDia_1 = new List<DialogueStruct>();
-
 
     void Start()
     {
-        InitDialogue();
-        SetDialogue();
+        InitDialogueData();
+        if (initialGroupName.Length > 0)
+        {
+            PublicTool.ClearChildItem(tfImage);
+            StartDialogue(initialGroupName);
+        }
 
         btnContinue.onClick.RemoveAllListeners();
         btnContinue.onClick.AddListener(delegate ()
         {
             NextStep();
         });
-
-        textDisplay.text = "";
-        //StartCoroutine(Type());
     }
 
-    public void SetDialogue()
+   public void StartDialogue(string groupName)
     {
-        switch (diaGroupIndex)
-        {
-            case 0:
-                listCur = new List<DialogueStruct>(listDia_0);
-                break;
-            case 1:
-                listCur = new List<DialogueStruct>(listDia_1);
-                break;
-        }
+        listCurDialogue = dialogueData.GetDialogueGroup(groupName);
+        curID = 0;
+        NextStep();
     }
 
-
+     
     public void NextStep()
     {
-        if (listCur == null)
+        if (listCurDialogue == null)
         {
             return;
         }
 
-        if(curID <= listCur.Count - 1)
+        if(curID <= listCurDialogue.Count - 1)
         {
-            DialogueStruct curDia = listCur[curID];
+            DialogueExcelItem curDia = listCurDialogue[curID];
             curID++;
-            switch (curDia.type)
+            switch (curDia.actionType)
             {
-                case DiaType.ShowText:
-                    objDia.SetActive(true);
-                    textDisplay.text = "";
-                    StartCoroutine(IE_Type(curDia.text));
-                    break;
-                case DiaType.HideText:
-                    objDia.SetActive(false);
+                case ActionType.SetBG:
+                    imgBG.sprite = Resources.Load(curDia.strText, typeof(Sprite)) as Sprite;
                     NextStep();
                     break;
-                case DiaType.ShowImage:
+                case ActionType.ShowText:
+                    objSpeechBox.SetActive(true);
+                    textDisplay.text = "";
+                    StartCoroutine(IE_ShowTextType(curDia.strText));
+                    break;
+                case ActionType.HideText:
+                    objSpeechBox.SetActive(false);
+                    NextStep();
+                    break;
+                case ActionType.ShowImage:
                     GameObject objImage = GameObject.Instantiate(pfImage, tfImage);
                     InteractUIItem itemImage = objImage.GetComponent<InteractUIItem>();
-                    itemImage.Init(delegate ()
+                    itemImage.Init(curDia, delegate ()
                     {
-                        NextStep();
+                        StartDialogue(curDia.ToGroup);
                     });
+                    NextStep();
+                    break;
+                case ActionType.ClearAllImage:
+                    PublicTool.ClearChildItem(tfImage);
                     NextStep();
                     break;
             }
         }
     }
 
-    public IEnumerator IE_Type(string text)
+    public IEnumerator IE_ShowTextType(string text)
     {
         btnContinue.interactable = false;
         foreach (char letter in text.ToCharArray())
@@ -99,31 +110,5 @@ public partial class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
         btnContinue.interactable = true;
-    }
-}
-
-public enum DiaType
-{
-    ShowText,
-    ShowImage,
-    HideText
-}
-
-public class DialogueStruct
-{
-    public DiaType type;
-    public string text;
-    public int ID;
-
-    public DialogueStruct(DiaType type,string text)
-    {
-        this.type = type;
-        this.text = text;
-    }
-
-    public DialogueStruct(DiaType type,int ID)
-    {
-        this.type = type;
-        this.ID = ID;
     }
 }
