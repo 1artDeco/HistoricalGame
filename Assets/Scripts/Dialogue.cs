@@ -89,7 +89,10 @@ public partial class Dialogue : MonoBehaviour
                     InteractUIItem itemImage = objImage.GetComponent<InteractUIItem>();
                     itemImage.Init(curDia, delegate ()
                     {
-                        StartDialogue(curDia.ToGroup);
+                        if (curDia.ToGroup.Length > 0)
+                        {
+                            StartDialogue(curDia.ToGroup);
+                        }
                     });
                     NextStep();
                     break;
