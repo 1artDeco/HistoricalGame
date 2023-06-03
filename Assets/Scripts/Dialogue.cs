@@ -10,6 +10,7 @@ public enum ActionType
     ShowText,
     ShowImage,
     HideText,
+    SkipToTalk,
     ClearAllImage
 }
 
@@ -96,10 +97,17 @@ public partial class Dialogue : MonoBehaviour
                     });
                     NextStep();
                     break;
+                case ActionType.SkipToTalk:
+                    if (curDia.ToGroup.Length > 0)
+                    {
+                        StartDialogue(curDia.ToGroup);
+                    }
+                    break;
                 case ActionType.ClearAllImage:
                     PublicTool.ClearChildItem(tfImage);
                     NextStep();
                     break;
+
             }
         }
     }
