@@ -60,7 +60,7 @@ MonoBehaviour:
   - id: 10
     groupName: Opening
     actionType: 1
-    strText: 'School girl: Thank you!'
+    strText: '*Instruction: Left click the object to read more information.*'
     posX: 0
     posY: 0
     ToGroup: 
@@ -88,35 +88,70 @@ MonoBehaviour:
   - id: 14
     groupName: Talk2
     actionType: 1
-    strText: AAA
+    strText: "Children\u2019s Literature: Children\u2019s Literature is a monthly
+      magazine jointly founded by the China Writer\u2019s Association and the Central
+      Committee of the Youth League. It has been published for decades and has nurtured
+      several generations. The collection of famous writers and fine works has made
+      it a truly national publication."
     posX: 0
     posY: 0
     ToGroup: 
   - id: 15
     groupName: Talk2
     actionType: 1
-    strText: BBB
+    strText: 'School girl: Thank you!'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 16
     groupName: Talk2
-    actionType: 1
-    strText: CCC
+    actionType: 0
+    strText: Pic/Bg2
     posX: 0
     posY: 0
     ToGroup: 
   - id: 17
-    groupName: Talk2
-    actionType: 4
-    strText: 
+    groupName: Talk3
+    actionType: 1
+    strText: '*A middle aged man approaches.*'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 18
-    groupName: Talk2
-    actionType: 3
-    strText: 
+    groupName: Talk3
+    actionType: 1
+    strText: 'Lee: Here is a parcel for you.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 19
+    groupName: Talk3
+    actionType: 1
+    strText: "ME: Hey, Lee! Haven\u2019t seen you for a while! What have you been
+      up to?"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 20
+    groupName: Talk3
+    actionType: 1
+    strText: 'Lee: Just some chores to get paid. You know, I was laid off form the
+      factory.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 21
+    groupName: Talk3
+    actionType: 1
+    strText: 'Lee: Speaking of which, our old factory is going to be bombed out today.
+      Me and my buddies are going to have a look. Are you coming?'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 22
+    groupName: Talk3
+    actionType: 1
+    strText: 'ME: Maybe later. Thanks.'
     posX: 0
     posY: 0
     ToGroup: 
