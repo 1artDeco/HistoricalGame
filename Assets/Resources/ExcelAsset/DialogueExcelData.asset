@@ -16,7 +16,7 @@ MonoBehaviour:
   - id: 4
     groupName: Opening
     actionType: 0
-    strText: Pic/Bg2
+    strText: Pic/Scene1
     posX: 0
     posY: 0
     ToGroup: 
@@ -74,14 +74,14 @@ MonoBehaviour:
   - id: 12
     groupName: Opening
     actionType: 2
-    strText: Pic/Rabbit
+    strText: Pic/magnify
     posX: -400
     posY: 50
     ToGroup: Talk1
   - id: 13
     groupName: Talk1
     actionType: 0
-    strText: Pic/Bg1
+    strText: Pic/Scene1
     posX: 0
     posY: 0
     ToGroup: 
@@ -90,48 +90,55 @@ MonoBehaviour:
     actionType: 1
     strText: "Children\u2019s Literature: Children\u2019s Literature is a monthly
       magazine jointly founded by the China Writer\u2019s Association and the Central
-      Committee of the Youth League. It has been published for decades and has nurtured
-      several generations. The collection of famous writers and fine works has made
-      it a truly national publication."
+      Committee of the Youth League."
     posX: 0
     posY: 0
     ToGroup: 
   - id: 15
     groupName: Talk1
     actionType: 1
-    strText: 'School girl: Thank you!'
+    strText: It has been published for decades and has nurtured several generations.
+      The collection of famous writers and fine works has made it a truly national
+      publication.
     posX: 0
     posY: 0
     ToGroup: 
   - id: 16
     groupName: Talk1
-    actionType: 0
-    strText: Pic/Bg2
+    actionType: 1
+    strText: 'School girl: Thank you!'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 17
+    groupName: Talk1
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 18
     groupName: Talk1
     actionType: 4
     strText: 
     posX: 0
     posY: 0
     ToGroup: Talk2
-  - id: 18
+  - id: 19
     groupName: Talk2
     actionType: 1
     strText: '*A middle aged man approaches.*'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 19
+  - id: 20
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Here is a parcel for you.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 20
+  - id: 21
     groupName: Talk2
     actionType: 1
     strText: "ME: Hey, Lee! Haven\u2019t seen you for a while! What have you been
@@ -139,7 +146,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 21
+  - id: 22
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Just some chores to get paid. You know, I was laid off form the
@@ -147,7 +154,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 22
+  - id: 23
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Speaking of which, our old factory is going to be bombed out today.
@@ -155,10 +162,524 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 23
+  - id: 24
     groupName: Talk2
     actionType: 1
     strText: 'ME: Maybe later. Thanks.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 25
+    groupName: Talk2
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 26
+    groupName: Talk2
+    actionType: 2
+    strText: Pic/magnify
+    posX: 0
+    posY: 0
+    ToGroup: Talk3
+  - id: 27
+    groupName: Talk3
+    actionType: 1
+    strText: 'Parcel: Inside the parcel, there is a letter, a key and a pack of cigarettes.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 28
+    groupName: Talk3
+    actionType: 1
+    strText: "\u201CMy dearest friend, I am sorry to ask for your help in this way.
+      After I was laid off from the factory, Xiuying suggested that our whole family
+      have a trip at the beach."
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 29
+    groupName: Talk3
+    actionType: 1
+    strText: "Since we are going out for a week, could you help me take care of our
+      goldfish at home? -- Qiming Zhao\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 30
+    groupName: Talk3
+    actionType: 1
+    strText: "ME: The cigarettes are from a popular brand but look very old. Something
+      tells me it\u2019s not just about the goldfish. I am going to his apartment
+      to find out."
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 31
+    groupName: Talk3
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 32
+    groupName: Talk3
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 33
+    groupName: Talk3
+    actionType: 0
+    strText: Pic/Scene2
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 34
+    groupName: Talk3
+    actionType: 2
+    strText: Pic/magnify
+    posX: -400
+    posY: 0
+    ToGroup: Talk4
+  - id: 35
+    groupName: Talk3
+    actionType: 2
+    strText: Pic/magnify
+    posX: 400
+    posY: 0
+    ToGroup: Talk5
+  - id: 36
+    groupName: Talk3
+    actionType: 2
+    strText: Pic/magnify
+    posX: 0
+    posY: 270
+    ToGroup: Talk6
+  - id: 37
+    groupName: Talk3
+    actionType: 2
+    strText: Pic/magnify
+    posX: 100
+    posY: -50
+    ToGroup: Talk7
+  - id: 38
+    groupName: Talk4
+    actionType: 1
+    strText: 'Left column: The new spring comes with the shining glow.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 39
+    groupName: Talk4
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 40
+    groupName: Talk5
+    actionType: 1
+    strText: 'Right column: The old year leaves amidst the falling snow.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 41
+    groupName: Talk5
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 42
+    groupName: Talk6
+    actionType: 1
+    strText: 'Upper row: Ring out the old, ring in the new.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 43
+    groupName: Talk6
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 44
+    groupName: Talk7
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 45
+    groupName: Talk7
+    actionType: 0
+    strText: Pic/Scene3
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 46
+    groupName: Talk7
+    actionType: 2
+    strText: Pic/magnify
+    posX: -450
+    posY: 0
+    ToGroup: Talk8
+  - id: 47
+    groupName: Talk7
+    actionType: 2
+    strText: Pic/magnify
+    posX: 500
+    posY: 100
+    ToGroup: Talk9
+  - id: 48
+    groupName: Talk7
+    actionType: 2
+    strText: Pic/magnify
+    posX: 500
+    posY: -50
+    ToGroup: Talk10
+  - id: 49
+    groupName: Talk7
+    actionType: 2
+    strText: Pic/left
+    posX: -600
+    posY: -100
+    ToGroup: Talk11
+  - id: 50
+    groupName: Talk8
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 51
+    groupName: Talk8
+    actionType: 0
+    strText: Pic/oldphoto
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 52
+    groupName: Talk8
+    actionType: 1
+    strText: The wedding day, Qiming Zhao and Xiuying He. I took this photo for them.
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 53
+    groupName: Talk8
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 54
+    groupName: Talk8
+    actionType: 4
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: Talk7
+  - id: 55
+    groupName: Talk9
+    actionType: 1
+    strText: "Pennant: \u201CComrade Qiming Zhao is rated as advanced worker in the
+      union.\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 56
+    groupName: Talk9
+    actionType: 1
+    strText: 'Me: I remember the day he got this reward. He was so happy...'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 57
+    groupName: Talk9
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 58
+    groupName: Talk10
+    actionType: 1
+    strText: 'Fish tank: The goldfish looks very healthy. I may take this away with
+      me.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 59
+    groupName: Talk10
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 60
+    groupName: Talk11
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 61
+    groupName: Talk11
+    actionType: 0
+    strText: Pic/Scene4
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 62
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/magnify
+    posX: -400
+    posY: 200
+    ToGroup: Talk12
+  - id: 63
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/magnify
+    posX: 0
+    posY: -100
+    ToGroup: Talk13
+  - id: 64
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/magnify
+    posX: 200
+    posY: -200
+    ToGroup: Talk14
+  - id: 65
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/magnify
+    posX: 400
+    posY: 0
+    ToGroup: Talk15
+  - id: 66
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/left
+    posX: -600
+    posY: -100
+    ToGroup: Talk16
+  - id: 67
+    groupName: Talk11
+    actionType: 2
+    strText: Pic/right
+    posX: 600
+    posY: -100
+    ToGroup: Talk7
+  - id: 68
+    groupName: Talk12
+    actionType: 1
+    strText: 'Certificates: The best ping pong player, first prize in composition,
+      second prize in poetry recitation... Their son is certainly a great student.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 69
+    groupName: Talk12
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 70
+    groupName: Talk13
+    actionType: 1
+    strText: 'Diary:'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 71
+    groupName: Talk13
+    actionType: 1
+    strText: May 26th, 1996. The neighbors gave us some vegetables. I am really grateful
+      that there are so many good people helping us through this.
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 72
+    groupName: Talk13
+    actionType: 1
+    strText: "June 15th, 1996. Our son is very thoughtful at his age. The teacher
+      said he need a new pair of sneakers in order to participate in the municipal
+      contest. After I told him we couldn\u2019t afford the shoes, he said \u201Cdon\u2019t
+      worry, I am not going\u201D."
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 73
+    groupName: Talk13
+    actionType: 1
+    strText: July 2nd, 1996. Zhao told me some people are collecting leftovers in
+      the market for food. Is this how our lives are going to be?
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 74
+    groupName: Talk13
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 75
+    groupName: Talk14
+    actionType: 1
+    strText: 'Ping pong: Qiming always practices ping pong with his son after work.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 76
+    groupName: Talk14
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 77
+    groupName: Talk15
+    actionType: 1
+    strText: 'TV bench: There used to be a nice TV here. Qiming and Xiuying bought
+      it when they got married.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 78
+    groupName: Talk15
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 79
+    groupName: Talk16
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 80
+    groupName: Talk16
+    actionType: 0
+    strText: Pic/Scene5
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 81
+    groupName: Talk16
+    actionType: 1
+    strText: "Now I remember where the cigarettes come from. I bought him as a gift
+      at new year\u2019s eve."
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 82
+    groupName: Talk16
+    actionType: 1
+    strText: '(fireworks) ME: Happy new year, my dear friend! This is a gift for
+      you and hey, wish you get promoted, advanced worker of this year!'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 83
+    groupName: Talk16
+    actionType: 1
+    strText: 'Zhao: Thank you so much, but I have to keep them for now. My wife is
+      pregnant.'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 84
+    groupName: Talk16
+    actionType: 1
+    strText: 'ME: What a surprise! As we always say, good things come in pairs!'
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 85
+    groupName: Talk16
+    actionType: 1
+    strText: ......
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 86
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CSee? The factory is bombed out.\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 87
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CI can\u2019t believe it. This place was shut down all of a sudden,
+      and there were so many friends of mine working there.\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 88
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CIt\u2019s quite common these days. I heard that there was a worker
+      found dead behind the factory. It was suicide!\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 89
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CLife is just so unpredictable...\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 90
+    groupName: Talk16
+    actionType: 1
+    strText: With bursts of loud noise, the cooling towers are being disintegrated.
+      The glorious history of this factory is buried under the broken concrete, and
+      not only that, but countless people's past is also buried with it.
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 91
+    groupName: Talk16
+    actionType: 1
+    strText: "I keep asking myself where Zhao and his family are, but the answer
+      is right in front of me. Maybe I just don\u2019t want it to be true. The truth
+      is too cruel to see so that he wrapped it with a lie."
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 92
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CAll the honors of yesterday has become a distant memory\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 93
+    groupName: Talk16
+    actionType: 1
+    strText: "\u201CHalf a lifetime of hard work and hardship, and tonight we walk
+      into the storm again\u201D"
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 94
+    groupName: Talk16
+    actionType: 3
+    strText: 
     posX: 0
     posY: 0
     ToGroup: 
