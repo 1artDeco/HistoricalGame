@@ -16,11 +16,18 @@ MonoBehaviour:
   - id: 4
     groupName: Opening
     actionType: 0
-    strText: Pic/Scene1
+    strText: Pic/op
     posX: 0
     posY: 0
     ToGroup: 
   - id: 5
+    groupName: Opening
+    actionType: 2
+    strText: Pic/ME
+    posX: 300
+    posY: 100
+    ToGroup: 
+  - id: 6
     groupName: Opening
     actionType: 1
     strText: "ME: It\u2019s the last day of August. With the coming of autumn, the
@@ -28,7 +35,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 6
+  - id: 7
     groupName: Opening
     actionType: 1
     strText: 'ME: Since magazines are selling well today, I can close this newsstand
@@ -36,56 +43,84 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 7
-    groupName: Opening
-    actionType: 1
-    strText: 'ME: Oh, young lady, which magazine are you looking for?'
-    posX: 0
-    posY: 0
-    ToGroup: 
   - id: 8
     groupName: Opening
-    actionType: 1
-    strText: "School girl: Children\u2019s Literature, please."
+    actionType: 0
+    strText: Pic/girl
     posX: 0
     posY: 0
     ToGroup: 
   - id: 9
     groupName: Opening
     actionType: 1
-    strText: 'ME: Here you go.'
+    strText: 'ME: Oh, young lady, which magazine are you looking for?'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 10
     groupName: Opening
     actionType: 1
-    strText: '*Instruction: Left click the object to read more information.*'
+    strText: "School girl: Children\u2019s Literature, please."
     posX: 0
     posY: 0
     ToGroup: 
   - id: 11
     groupName: Opening
-    actionType: 3
-    strText: 
+    actionType: 1
+    strText: 'ME: Here you go.'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 12
     groupName: Opening
     actionType: 2
-    strText: Pic/magnify
-    posX: -400
-    posY: 50
-    ToGroup: Talk1
+    strText: Pic/zine
+    posX: -350
+    posY: -250
+    ToGroup: 
   - id: 13
-    groupName: Talk1
-    actionType: 0
-    strText: Pic/Scene1
+    groupName: Opening
+    actionType: 1
+    strText: '*Instruction: Left click the object to read more information.*'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 14
+    groupName: Opening
+    actionType: 3
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 15
+    groupName: Opening
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 16
+    groupName: Opening
+    actionType: 2
+    strText: Pic/zine
+    posX: -350
+    posY: -250
+    ToGroup: 
+  - id: 17
+    groupName: Opening
+    actionType: 2
+    strText: Pic/magnify
+    posX: -300
+    posY: -250
+    ToGroup: Talk1
+  - id: 18
+    groupName: Talk1
+    actionType: 0
+    strText: Pic/girl
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 19
     groupName: Talk1
     actionType: 1
     strText: "Children\u2019s Literature: Children\u2019s Literature is a monthly
@@ -94,7 +129,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 15
+  - id: 20
     groupName: Talk1
     actionType: 1
     strText: It has been published for decades and has nurtured several generations.
@@ -103,42 +138,70 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 16
+  - id: 21
     groupName: Talk1
     actionType: 1
     strText: 'School girl: Thank you!'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 17
+  - id: 22
     groupName: Talk1
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 18
+  - id: 23
+    groupName: Talk1
+    actionType: 0
+    strText: Pic/op
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 24
     groupName: Talk1
     actionType: 4
     strText: 
     posX: 0
     posY: 0
     ToGroup: Talk2
-  - id: 19
+  - id: 25
     groupName: Talk2
     actionType: 1
     strText: '*A middle aged man approaches.*'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 20
+  - id: 26
+    groupName: Talk2
+    actionType: 0
+    strText: Pic/dman
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 27
+    groupName: Talk2
+    actionType: 2
+    strText: Pic/pack
+    posX: -450
+    posY: -250
+    ToGroup: 
+  - id: 28
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Here is a parcel for you.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 21
+  - id: 29
+    groupName: Talk2
+    actionType: 2
+    strText: Pic/ME
+    posX: 300
+    posY: 100
+    ToGroup: 
+  - id: 30
     groupName: Talk2
     actionType: 1
     strText: "ME: Hey, Lee! Haven\u2019t seen you for a while! What have you been
@@ -146,7 +209,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 22
+  - id: 31
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Just some chores to get paid. You know, I was laid off form the
@@ -154,7 +217,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 23
+  - id: 32
     groupName: Talk2
     actionType: 1
     strText: 'Lee: Speaking of which, our old factory is going to be bombed out today.
@@ -162,35 +225,56 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 24
+  - id: 33
     groupName: Talk2
     actionType: 1
     strText: 'ME: Maybe later. Thanks.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 25
+  - id: 34
     groupName: Talk2
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 26
+  - id: 35
+    groupName: Talk2
+    actionType: 0
+    strText: Pic/op
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 36
+    groupName: Talk2
+    actionType: 5
+    strText: 
+    posX: 0
+    posY: 0
+    ToGroup: 
+  - id: 37
+    groupName: Talk2
+    actionType: 2
+    strText: Pic/pack
+    posX: -450
+    posY: -250
+    ToGroup: 
+  - id: 38
     groupName: Talk2
     actionType: 2
     strText: Pic/magnify
-    posX: 0
-    posY: 0
+    posX: -400
+    posY: -250
     ToGroup: Talk3
-  - id: 27
+  - id: 39
     groupName: Talk3
     actionType: 1
     strText: 'Parcel: Inside the parcel, there is a letter, a key and a pack of cigarettes.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 28
+  - id: 40
     groupName: Talk3
     actionType: 1
     strText: "\u201CMy dearest friend, I am sorry to ask for your help in this way.
@@ -199,7 +283,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 29
+  - id: 41
     groupName: Talk3
     actionType: 1
     strText: "Since we are going out for a week, could you help me take care of our
@@ -207,7 +291,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 30
+  - id: 42
     groupName: Talk3
     actionType: 1
     strText: "ME: The cigarettes are from a popular brand but look very old. Something
@@ -216,175 +300,182 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 31
+  - id: 43
     groupName: Talk3
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 32
+  - id: 44
     groupName: Talk3
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 33
+  - id: 45
     groupName: Talk3
     actionType: 0
-    strText: Pic/Scene2
+    strText: Pic/door
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 34
+  - id: 46
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
     posX: -400
     posY: 0
     ToGroup: Talk4
-  - id: 35
+  - id: 47
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
     posX: 400
     posY: 0
     ToGroup: Talk5
-  - id: 36
+  - id: 48
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
     posX: 0
     posY: 270
     ToGroup: Talk6
-  - id: 37
+  - id: 49
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
     posX: 100
     posY: -50
     ToGroup: Talk7
-  - id: 38
+  - id: 50
     groupName: Talk4
     actionType: 1
     strText: 'Left column: The new spring comes with the shining glow.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 39
+  - id: 51
     groupName: Talk4
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 40
+  - id: 52
     groupName: Talk5
     actionType: 1
     strText: 'Right column: The old year leaves amidst the falling snow.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 41
+  - id: 53
     groupName: Talk5
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 42
+  - id: 54
     groupName: Talk6
     actionType: 1
     strText: 'Upper row: Ring out the old, ring in the new.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 43
+  - id: 55
     groupName: Talk6
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 44
+  - id: 56
     groupName: Talk7
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 45
+  - id: 57
     groupName: Talk7
     actionType: 0
-    strText: Pic/Scene3
+    strText: Pic/living
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 46
+  - id: 58
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
     posX: -450
     posY: 0
     ToGroup: Talk8
-  - id: 47
+  - id: 59
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
     posX: 500
     posY: 100
     ToGroup: Talk9
-  - id: 48
+  - id: 60
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
     posX: 500
     posY: -50
     ToGroup: Talk10
-  - id: 49
+  - id: 61
     groupName: Talk7
     actionType: 2
     strText: Pic/left
     posX: -600
     posY: -100
     ToGroup: Talk11
-  - id: 50
+  - id: 62
     groupName: Talk8
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 51
+  - id: 63
     groupName: Talk8
     actionType: 0
-    strText: Pic/oldphoto
+    strText: Pic/photo
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 52
+  - id: 64
     groupName: Talk8
+    actionType: 2
+    strText: Pic/magnify
+    posX: 300
+    posY: -200
+    ToGroup: Talk8.1
+  - id: 65
+    groupName: Talk8.1
     actionType: 1
     strText: The wedding day, Qiming Zhao and Xiuying He. I took this photo for them.
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 53
-    groupName: Talk8
+  - id: 66
+    groupName: Talk8.1
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 54
-    groupName: Talk8
+  - id: 67
+    groupName: Talk8.1
     actionType: 4
     strText: 
     posX: 0
     posY: 0
     ToGroup: Talk7
-  - id: 55
+  - id: 68
     groupName: Talk9
     actionType: 1
     strText: "Pennant: \u201CComrade Qiming Zhao is rated as advanced worker in the
@@ -392,21 +483,21 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 56
+  - id: 69
     groupName: Talk9
     actionType: 1
     strText: 'Me: I remember the day he got this reward. He was so happy...'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 57
+  - id: 70
     groupName: Talk9
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 58
+  - id: 71
     groupName: Talk10
     actionType: 1
     strText: 'Fish tank: The goldfish looks very healthy. I may take this away with
@@ -414,70 +505,70 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 59
+  - id: 72
     groupName: Talk10
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 60
+  - id: 73
     groupName: Talk11
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 61
+  - id: 74
     groupName: Talk11
     actionType: 0
-    strText: Pic/Scene4
+    strText: Pic/desk
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 62
+  - id: 75
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
     posX: -400
     posY: 200
     ToGroup: Talk12
-  - id: 63
+  - id: 76
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
     posX: 0
     posY: -100
     ToGroup: Talk13
-  - id: 64
+  - id: 77
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
     posX: 200
     posY: -200
     ToGroup: Talk14
-  - id: 65
+  - id: 78
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
     posX: 400
     posY: 0
     ToGroup: Talk15
-  - id: 66
+  - id: 79
     groupName: Talk11
     actionType: 2
     strText: Pic/left
     posX: -600
     posY: -100
     ToGroup: Talk16
-  - id: 67
+  - id: 80
     groupName: Talk11
     actionType: 2
     strText: Pic/right
     posX: 600
     posY: -100
     ToGroup: Talk7
-  - id: 68
+  - id: 81
     groupName: Talk12
     actionType: 1
     strText: 'Certificates: The best ping pong player, first prize in composition,
@@ -485,21 +576,21 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 69
+  - id: 82
     groupName: Talk12
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 70
+  - id: 83
     groupName: Talk13
     actionType: 1
     strText: 'Diary:'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 71
+  - id: 84
     groupName: Talk13
     actionType: 1
     strText: May 26th, 1996. The neighbors gave us some vegetables. I am really grateful
@@ -507,7 +598,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 72
+  - id: 85
     groupName: Talk13
     actionType: 1
     strText: "June 15th, 1996. Our son is very thoughtful at his age. The teacher
@@ -517,7 +608,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 73
+  - id: 86
     groupName: Talk13
     actionType: 1
     strText: July 2nd, 1996. Zhao told me some people are collecting leftovers in
@@ -525,28 +616,28 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 74
+  - id: 87
     groupName: Talk13
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 75
+  - id: 88
     groupName: Talk14
     actionType: 1
     strText: 'Ping pong: Qiming always practices ping pong with his son after work.'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 76
+  - id: 89
     groupName: Talk14
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 77
+  - id: 90
     groupName: Talk15
     actionType: 1
     strText: 'TV bench: There used to be a nice TV here. Qiming and Xiuying bought
@@ -554,28 +645,28 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 78
+  - id: 91
     groupName: Talk15
     actionType: 3
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 79
+  - id: 92
     groupName: Talk16
     actionType: 5
     strText: 
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 80
+  - id: 93
     groupName: Talk16
     actionType: 0
-    strText: Pic/Scene5
+    strText: Pic/ending
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 81
+  - id: 94
     groupName: Talk16
     actionType: 1
     strText: "Now I remember where the cigarettes come from. I bought him as a gift
@@ -583,7 +674,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 82
+  - id: 95
     groupName: Talk16
     actionType: 1
     strText: '(fireworks) ME: Happy new year, my dear friend! This is a gift for
@@ -591,7 +682,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 83
+  - id: 96
     groupName: Talk16
     actionType: 1
     strText: 'Zhao: Thank you so much, but I have to keep them for now. My wife is
@@ -599,28 +690,28 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 84
+  - id: 97
     groupName: Talk16
     actionType: 1
     strText: 'ME: What a surprise! As we always say, good things come in pairs!'
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 85
+  - id: 98
     groupName: Talk16
     actionType: 1
     strText: ......
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 86
+  - id: 99
     groupName: Talk16
     actionType: 1
     strText: "\u201CSee? The factory is bombed out.\u201D"
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 87
+  - id: 100
     groupName: Talk16
     actionType: 1
     strText: "\u201CI can\u2019t believe it. This place was shut down all of a sudden,
@@ -628,7 +719,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 88
+  - id: 101
     groupName: Talk16
     actionType: 1
     strText: "\u201CIt\u2019s quite common these days. I heard that there was a worker
@@ -636,14 +727,14 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 89
+  - id: 102
     groupName: Talk16
     actionType: 1
     strText: "\u201CLife is just so unpredictable...\u201D"
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 90
+  - id: 103
     groupName: Talk16
     actionType: 1
     strText: With bursts of loud noise, the cooling towers are being disintegrated.
@@ -652,7 +743,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 91
+  - id: 104
     groupName: Talk16
     actionType: 1
     strText: "I keep asking myself where Zhao and his family are, but the answer
@@ -661,14 +752,14 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 92
+  - id: 105
     groupName: Talk16
     actionType: 1
     strText: "\u201CAll the honors of yesterday has become a distant memory\u201D"
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 93
+  - id: 106
     groupName: Talk16
     actionType: 1
     strText: "\u201CHalf a lifetime of hard work and hardship, and tonight we walk
@@ -676,7 +767,7 @@ MonoBehaviour:
     posX: 0
     posY: 0
     ToGroup: 
-  - id: 94
+  - id: 107
     groupName: Talk16
     actionType: 3
     strText: 
