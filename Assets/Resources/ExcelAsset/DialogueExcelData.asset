@@ -24,8 +24,8 @@ MonoBehaviour:
     groupName: Opening
     actionType: 2
     strText: Pic/ME
-    posX: 300
-    posY: 100
+    posX: 419
+    posY: 14
     ToGroup: 
   - id: 6
     groupName: Opening
@@ -75,8 +75,8 @@ MonoBehaviour:
     groupName: Opening
     actionType: 2
     strText: Pic/zine
-    posX: -350
-    posY: -250
+    posX: -401
+    posY: -390
     ToGroup: 
   - id: 13
     groupName: Opening
@@ -103,15 +103,15 @@ MonoBehaviour:
     groupName: Opening
     actionType: 2
     strText: Pic/zine
-    posX: -350
-    posY: -250
+    posX: -401
+    posY: -390
     ToGroup: 
   - id: 17
     groupName: Opening
     actionType: 2
     strText: Pic/magnify
-    posX: -300
-    posY: -250
+    posX: -290
+    posY: -418
     ToGroup: Talk1
   - id: 18
     groupName: Talk1
@@ -184,8 +184,8 @@ MonoBehaviour:
     groupName: Talk2
     actionType: 2
     strText: Pic/pack
-    posX: -450
-    posY: -250
+    posX: -416
+    posY: -380
     ToGroup: 
   - id: 28
     groupName: Talk2
@@ -198,8 +198,8 @@ MonoBehaviour:
     groupName: Talk2
     actionType: 2
     strText: Pic/ME
-    posX: 300
-    posY: 100
+    posX: 419
+    posY: 14
     ToGroup: 
   - id: 30
     groupName: Talk2
@@ -257,15 +257,15 @@ MonoBehaviour:
     groupName: Talk2
     actionType: 2
     strText: Pic/pack
-    posX: -450
-    posY: -250
+    posX: -416
+    posY: -380
     ToGroup: 
   - id: 38
     groupName: Talk2
     actionType: 2
     strText: Pic/magnify
-    posX: -400
-    posY: -250
+    posX: -263
+    posY: -407
     ToGroup: Talk3
   - id: 39
     groupName: Talk3
@@ -325,29 +325,29 @@ MonoBehaviour:
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
-    posX: -400
-    posY: 0
+    posX: -365
+    posY: -257
     ToGroup: Talk4
   - id: 47
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
-    posX: 400
-    posY: 0
+    posX: 516
+    posY: -257
     ToGroup: Talk5
   - id: 48
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
-    posX: 0
-    posY: 270
+    posX: 164
+    posY: 335
     ToGroup: Talk6
   - id: 49
     groupName: Talk3
     actionType: 2
     strText: Pic/magnify
-    posX: 100
-    posY: -50
+    posX: -167
+    posY: -415
     ToGroup: Talk7
   - id: 50
     groupName: Talk4
@@ -409,29 +409,29 @@ MonoBehaviour:
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
-    posX: -450
-    posY: 0
+    posX: -548
+    posY: 138
     ToGroup: Talk8
   - id: 59
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
-    posX: 500
-    posY: 100
+    posX: 764
+    posY: -24
     ToGroup: Talk9
   - id: 60
     groupName: Talk7
     actionType: 2
     strText: Pic/magnify
-    posX: 500
-    posY: -50
+    posX: 846
+    posY: -379
     ToGroup: Talk10
   - id: 61
     groupName: Talk7
     actionType: 2
     strText: Pic/left
-    posX: -600
-    posY: -100
+    posX: -859
+    posY: -103
     ToGroup: Talk11
   - id: 62
     groupName: Talk8
@@ -451,8 +451,8 @@ MonoBehaviour:
     groupName: Talk8
     actionType: 2
     strText: Pic/magnify
-    posX: 300
-    posY: -200
+    posX: 0
+    posY: -136
     ToGroup: Talk8.1
   - id: 65
     groupName: Talk8.1
@@ -530,43 +530,43 @@ MonoBehaviour:
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
-    posX: -400
-    posY: 200
+    posX: -382
+    posY: 109
     ToGroup: Talk12
   - id: 76
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
-    posX: 0
-    posY: -100
+    posX: -36
+    posY: -337
     ToGroup: Talk13
   - id: 77
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
-    posX: 200
-    posY: -200
+    posX: 560
+    posY: -405
     ToGroup: Talk14
   - id: 78
     groupName: Talk11
     actionType: 2
     strText: Pic/magnify
-    posX: 400
-    posY: 0
+    posX: 699
+    posY: -68
     ToGroup: Talk15
   - id: 79
     groupName: Talk11
     actionType: 2
     strText: Pic/left
-    posX: -600
-    posY: -100
+    posX: -890
+    posY: -188
     ToGroup: Talk16
   - id: 80
     groupName: Talk11
     actionType: 2
     strText: Pic/right
-    posX: 600
-    posY: -100
+    posX: 890
+    posY: -188
     ToGroup: Talk7
   - id: 81
     groupName: Talk12
@@ -677,8 +677,8 @@ MonoBehaviour:
   - id: 95
     groupName: Talk16
     actionType: 1
-    strText: '(fireworks) ME: Happy new year, my dear friend! This is a gift for
-      you and hey, wish you get promoted, advanced worker of this year!'
+    strText: '(Many years ago) ME: Happy new year, my dear friend! This is a gift
+      for you and hey, wish you get promoted, advanced worker of this year!'
     posX: 0
     posY: 0
     ToGroup: 
@@ -707,30 +707,30 @@ MonoBehaviour:
   - id: 99
     groupName: Talk16
     actionType: 1
-    strText: "\u201CSee? The factory is bombed out.\u201D"
+    strText: 'Worker A: See? The factory is bombed out.'
     posX: 0
     posY: 0
     ToGroup: 
   - id: 100
     groupName: Talk16
     actionType: 1
-    strText: "\u201CI can\u2019t believe it. This place was shut down all of a sudden,
-      and there were so many friends of mine working there.\u201D"
+    strText: "Worker B: I can\u2019t believe it. This place was shut down all of
+      a sudden, and there were so many friends of mine working there."
     posX: 0
     posY: 0
     ToGroup: 
   - id: 101
     groupName: Talk16
     actionType: 1
-    strText: "\u201CIt\u2019s quite common these days. I heard that there was a worker
-      found dead behind the factory. It was suicide!\u201D"
+    strText: "Worker A: It\u2019s quite common these days. I heard that there was
+      a worker found dead behind the factory. It was suicide!"
     posX: 0
     posY: 0
     ToGroup: 
   - id: 102
     groupName: Talk16
     actionType: 1
-    strText: "\u201CLife is just so unpredictable...\u201D"
+    strText: 'Worker B: Life is just so unpredictable...'
     posX: 0
     posY: 0
     ToGroup: 
